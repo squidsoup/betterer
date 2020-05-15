@@ -1,0 +1,37 @@
+{
+  "name": "@betterer/axe",
+  "description": "Axe test for @betterer/betterer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "Craig Spence <craigspence0@gmail.com>",
+  "homepage": "https://phenomnomnominal.github.io/betterer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phenomnomnominal/betterer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phenomnomnominal/betterer/issues"
+  },
+  "scripts": {
+    "compile": "tsc -b ."
+  },
+  "dependencies": {
+    "@betterer/betterer": "^1.0.0",
+    "@betterer/errors": "^1.0.0",
+    "axe-core": "^3.5.3",
+    "axe-puppeteer": "^1.1.0",
+    "puppeteer": "^3.0.4",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^2.1.0"
+  }
+}

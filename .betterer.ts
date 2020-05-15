@@ -1,3 +1,4 @@
+import { axeBetterer } from '@betterer/axe';
 import { regexpBetterer } from '@betterer/regexp';
 import { tsqueryBetterer } from '@betterer/tsquery';
 
@@ -6,5 +7,10 @@ export default {
   'no raw console.log': tsqueryBetterer(
     './tsconfig.json',
     'CallExpression > PropertyAccessExpression[expression.name="console"][name.name="log"]'
-  ).exclude(/logger\/src/, /betterer\/src\/reporters/)
+  ).exclude(/logger\/src/, /betterer\/src\/reporters/),
+  'improve accessibility': axeBetterer('https://phenomnomnominal.github.io/betterer/', {
+    puppeteerOptions: {
+      headless: false
+    }
+  }).only()
 };

@@ -18,3 +18,7 @@ exports[`no raw console.log`] = {
     ]
   }`
 };
+exports[`improve accessibility`] = {
+  timestamp: 1589553596758,
+  value: `2`
+};

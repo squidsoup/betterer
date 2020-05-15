@@ -4,7 +4,7 @@
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
-    "lib": ["esnext"],
+    "lib": ["esnext", "DOM"],
     "moduleResolution": "node",
     "noEmitOnError": true,
     "noUnusedLocals": true,
