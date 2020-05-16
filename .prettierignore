@@ -17,4 +17,5 @@ test/__snapshots__/**
 .gitignore
 .npmrc
 .prettierignore
+.stylelintrc
 .yarnrc

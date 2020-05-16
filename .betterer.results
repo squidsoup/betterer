@@ -18,3 +18,21 @@ exports[`no raw console.log`] = {
     ]
   }`
 };
+exports[`no empty line before rule`] = {
+  timestamp: 1589640911764,
+  value: `{
+    "docs/reset.css:2846365856": [
+      [89, 0, 0, "Expected empty line before rule (rule-empty-line-before)", "5381"],
+      [102, 0, 0, "Expected empty line before rule (rule-empty-line-before)", "5381"],
+      [105, 0, 0, "Expected empty line before rule (rule-empty-line-before)", "5381"],
+      [109, 0, 0, "Expected empty line before rule (rule-empty-line-before)", "5381"],
+      [113, 0, 0, "Expected empty line before rule (rule-empty-line-before)", "5381"],
+      [120, 0, 0, "Expected empty line before rule (rule-empty-line-before)", "5381"]
+    ],
+    "docs/styles.css:1492363898": [
+      [13, 0, 0, "Expected empty line before rule (rule-empty-line-before)", "5381"],
+      [133, 0, 0, "Expected empty line before rule (rule-empty-line-before)", "5381"],
+      [164, 0, 0, "Expected empty line before rule (rule-empty-line-before)", "5381"]
+    ]
+  }`
+};

@@ -23,6 +23,9 @@
       "path": "regexp"
     },
     {
+      "path": "stylelint"
+    },
+    {
       "path": "tsquery"
     },
     {
